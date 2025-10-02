@@ -1,6 +1,7 @@
 body {
     background-color: black; /*fundo de tudo*/
     color: dimgrey; /*cor da escrita*/
+    font-family: Archivo-Black;
 }
 
 header {
