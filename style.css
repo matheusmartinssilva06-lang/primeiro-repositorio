@@ -38,17 +38,24 @@ p {
 .categoria {
 padding-left: 20px;
 padding-right: 20px;
-
+margin-top: 50px;
 }
 
+.categoria-videos {
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
 .categoria-videos img {
     opacity: 0,5;
-    height: 20px;
+    border: 200px;
 }
-.categoria-videos img {
-    opacity: 1,0;
-    border: 1px grey;
+
+.categoria-videos img :hover {
+    opacity: 1.0;
+    border: 1px solid grey;
 }
+
 .categoria h2 {
     color: darkgray;
 }
